@@ -20,4 +20,4 @@ SyntaxError: invalid syntax
 >>> s1.casefold()
 'hello'
 >>> s1.count(s1)
-1
+
