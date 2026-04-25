@@ -1,4 +1,4 @@
-#Creat a tuple
+#Create a tuple
 print('Three Places to visit: ')
 cities = ('Jaipur','Goa','Kerala')
 print(cities)
