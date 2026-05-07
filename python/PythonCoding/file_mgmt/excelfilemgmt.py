@@ -4,9 +4,9 @@ def write_excel(filename):
     workbook = Workbook()
     sheet = workbook.active
 
-    sheet.append(['Name,;Age'])
+    sheet.append(['Name','Age'])
     sheet.append(['john Doe', 30])
-    sheet.append(['Jane Smith,25'])
+    sheet.append(['Jane Smith',25])
 
     workbook.save(filename)
     print('Excel file written succesfully')
@@ -14,7 +14,6 @@ def write_excel(filename):
 def read_excel(filename):
     workbook = load_workbook(filename)
     sheet = workbook.active
-
     for row in sheet.iter_rows(values_only=True):
         print(f'Name: {row[0]}, Age: {row[1]}')
 
@@ -29,13 +28,5 @@ filename = "data.xlsx"
 
 write_excel(filename)
 
-print('Data read from Excel file:')
+print(f'Data read from Excel file:')
 read_excel(filename)
-
-
-
-
-
-
-
-    
