@@ -1,0 +1,133 @@
+2026-05-08 15:22:47,254 - INFO - ========================================
+2026-05-08 15:22:47,255 - INFO - STARTING SCENARIO : Successful Signup
+2026-05-08 15:22:47,255 - INFO - Browser fetched : edge
+2026-05-08 15:22:47,255 - INFO - Base URL fetched : https://www/demoblaze.com
+2026-05-08 15:22:47,255 - INFO - Implicit wait fetched : 5
+2026-05-08 15:22:47,255 - INFO - Headless mode : False
+2026-05-08 15:22:47,255 - INFO - Launching Edge Browser
+2026-05-08 15:23:05,439 - INFO - Scenario Status : Status.hook_error
+2026-05-08 15:23:05,439 - INFO - SCENARIO PASSED : Successful Signup
+2026-05-08 15:23:07,948 - INFO - Browser Closed Successfully
+2026-05-08 15:23:07,949 - INFO - ========================================
+2026-05-08 15:25:40,401 - INFO - ========================================
+2026-05-08 15:25:40,401 - INFO - STARTING SCENARIO : Successful Signup
+2026-05-08 15:25:40,402 - INFO - Browser fetched : edge
+2026-05-08 15:25:40,402 - INFO - Base URL fetched : https://www./demoblaze.com
+2026-05-08 15:25:40,402 - INFO - Implicit wait fetched : 5
+2026-05-08 15:25:40,402 - INFO - Headless mode : False
+2026-05-08 15:25:40,402 - INFO - Launching Edge Browser
+2026-05-08 15:25:57,430 - INFO - Scenario Status : Status.hook_error
+2026-05-08 15:25:57,434 - INFO - SCENARIO PASSED : Successful Signup
+2026-05-08 15:25:57,863 - INFO - Browser Closed Successfully
+2026-05-08 15:25:57,863 - INFO - ========================================
+2026-05-08 15:26:00,078 - INFO - ========================================
+2026-05-08 15:26:00,078 - INFO - STARTING SCENARIO : Successful Signup
+2026-05-08 15:26:00,078 - INFO - Browser fetched : edge
+2026-05-08 15:26:00,078 - INFO - Base URL fetched : https://www.demoblaze.com
+2026-05-08 15:26:00,078 - INFO - Implicit wait fetched : 5
+2026-05-08 15:26:00,078 - INFO - Headless mode : False
+2026-05-08 15:26:00,078 - INFO - Launching Edge Browser
+2026-05-08 15:26:03,233 - INFO - Browser Opened & Maximized Successfully
+2026-05-08 15:26:03,234 - INFO - Scenario Status : Status.error
+2026-05-08 15:26:03,234 - INFO - SCENARIO PASSED : Successful Signup
+2026-05-08 15:26:06,237 - INFO - Browser Closed Successfully
+2026-05-08 15:26:06,237 - INFO - ========================================
+2026-05-08 17:46:59,086 - INFO - ========================================
+2026-05-08 17:46:59,087 - INFO - AUTOMATION EXECUTION STARTED
+2026-05-08 17:46:59,087 - INFO - Deleting old allure-results folder
+2026-05-08 17:46:59,089 - INFO - Starting Behave Test Execution
+2026-05-08 17:47:00,958 - INFO - Timeout fetched : 15
+2026-05-08 17:47:00,998 - INFO - ========================================
+2026-05-08 17:47:00,998 - INFO - STARTING SCENARIO : Successful Signup
+2026-05-08 17:47:00,998 - INFO - Browser fetched : edge
+2026-05-08 17:47:00,998 - INFO - Base URL fetched : https://www.demoblaze.com
+2026-05-08 17:47:00,999 - INFO - Implicit wait fetched : 5
+2026-05-08 17:47:01,002 - INFO - Headless mode : False
+2026-05-08 17:47:01,002 - INFO - Launching Edge Browser
+2026-05-08 17:47:05,952 - INFO - Browser Opened & Maximized Successfully
+2026-05-08 17:47:05,956 - INFO - Demoblaze URL loaded
+2026-05-08 17:47:05,957 - INFO - Step : Click Sign Up Menu
+2026-05-08 17:47:05,958 - INFO - Clicking signup Menu
+2026-05-08 17:47:05,958 - INFO - Waiting for element clickable : ('link text', 'Sign up')
+2026-05-08 17:47:06,152 - INFO - Element clickable successfully : ('link text', 'Sign up')
+2026-05-08 17:47:06,382 - INFO - Scenario Status : Status.error
+2026-05-08 17:47:06,382 - INFO - SCENARIO PASSED : Successful Signup
+2026-05-08 17:47:11,329 - INFO - Browser Closed Successfully
+2026-05-08 17:47:11,329 - INFO - ========================================
+2026-05-08 17:47:11,403 - INFO - Behave Execution Completed with status code : 1
+2026-05-08 17:47:11,403 - INFO - Generating Allure HTML Report
+2026-05-08 17:47:11,435 - INFO - Allure Report Generated with status code : 1
+2026-05-08 17:47:11,435 - INFO - AUTOMATION EXECUTION COMPLETED
+2026-05-08 17:47:11,435 - INFO - ========================================
+2026-05-12 16:09:19,840 - INFO - ========================================
+2026-05-12 16:09:19,842 - INFO - AUTOMATION EXECUTION STARTED
+2026-05-12 16:09:19,842 - INFO - Deleting old allure-results folder
+2026-05-12 16:09:19,843 - INFO - Starting Behave Test Execution
+2026-05-12 16:09:26,554 - INFO - Timeout fetched : 15
+2026-05-12 16:09:26,835 - INFO - ========================================
+2026-05-12 16:09:26,835 - INFO - STARTING SCENARIO : Successful Signup
+2026-05-12 16:09:26,835 - INFO - Browser fetched : edge
+2026-05-12 16:09:26,835 - INFO - Base URL fetched : https://www.demoblaze.com
+2026-05-12 16:09:26,835 - INFO - Implicit wait fetched : 5
+2026-05-12 16:09:26,835 - INFO - Headless mode : False
+2026-05-12 16:09:26,835 - INFO - Launching Edge Browser
+2026-05-12 16:09:48,517 - INFO - Browser Opened & Maximized Successfully
+2026-05-12 16:09:48,518 - INFO - Demoblaze URL loaded
+2026-05-12 16:09:48,518 - INFO - Step : Click Sign Up Menu
+2026-05-12 16:09:48,523 - INFO - Clicking signup Menu
+2026-05-12 16:09:48,523 - INFO - Waiting for element clickable : ('link text', 'Sign up')
+2026-05-12 16:09:48,713 - INFO - Element clickable successfully : ('link text', 'Sign up')
+2026-05-12 16:09:48,857 - INFO - Scenario Status : Status.error
+2026-05-12 16:09:48,857 - INFO - SCENARIO PASSED : Successful Signup
+2026-05-12 16:09:51,747 - INFO - Browser Closed Successfully
+2026-05-12 16:09:51,747 - INFO - ========================================
+2026-05-12 16:09:51,890 - INFO - Behave Execution Completed with status code : 1
+2026-05-12 16:09:51,890 - INFO - Generating Allure HTML Report
+2026-05-12 16:09:51,924 - INFO - Allure Report Generated with status code : 1
+2026-05-12 16:09:51,924 - INFO - AUTOMATION EXECUTION COMPLETED
+2026-05-12 16:09:51,924 - INFO - ========================================
+2026-05-12 17:34:18,489 - INFO - ========================================
+2026-05-12 17:34:18,489 - INFO - AUTOMATION EXECUTION STARTED
+2026-05-12 17:34:18,490 - INFO - Deleting old allure-results folder
+2026-05-12 17:34:18,491 - INFO - Starting Behave Test Execution
+2026-05-12 17:34:20,907 - INFO - Timeout fetched : 10
+2026-05-12 17:34:20,943 - INFO - ========================================
+2026-05-12 17:34:20,944 - INFO - STARTING SCENARIO : Successful Signup
+2026-05-12 17:34:20,944 - INFO - Browser fetched : edge
+2026-05-12 17:34:20,944 - INFO - Base URL fetched : https://www.demoblaze.com/
+2026-05-12 17:34:20,944 - INFO - Implicit wait fetched : 5
+2026-05-12 17:34:20,944 - INFO - Headless mode : False
+2026-05-12 17:34:20,944 - INFO - Launching Edge Browser
+2026-05-12 17:34:30,011 - INFO - Browser Opened & Maximized Successfully
+2026-05-12 17:34:30,012 - INFO - Demoblaze URL loaded
+2026-05-12 17:34:30,013 - INFO - Step : Click Sign Up Menu
+2026-05-12 17:34:30,014 - INFO - Clicking signup Menu
+2026-05-12 17:34:30,014 - INFO - Waiting for element clickable : ('link text', 'Sign up')
+2026-05-12 17:34:30,167 - INFO - Element clickable successfully : ('link text', 'Sign up')
+2026-05-12 17:34:30,458 - INFO - Scenario Status : Status.error
+2026-05-12 17:34:30,458 - INFO - SCENARIO PASSED : Successful Signup
+2026-05-12 17:34:34,775 - INFO - Browser Closed Successfully
+2026-05-12 17:34:34,775 - INFO - ========================================
+2026-05-12 17:34:34,834 - INFO - Behave Execution Completed with status code : 1
+2026-05-12 17:34:34,834 - INFO - Generating Allure HTML Report
+2026-05-12 17:34:34,854 - INFO - Allure Report Generated with status code : 1
+2026-05-12 17:34:34,854 - INFO - AUTOMATION EXECUTION COMPLETED
+2026-05-12 17:34:34,854 - INFO - ========================================
+2026-05-12 17:38:28,305 - INFO - Timeout fetched : 10
+2026-05-12 17:38:28,313 - INFO - ========================================
+2026-05-12 17:38:28,313 - INFO - STARTING SCENARIO : Successful Signup
+2026-05-12 17:38:28,313 - INFO - Browser fetched : edge
+2026-05-12 17:38:28,314 - INFO - Base URL fetched : https://www.demoblaze.com/
+2026-05-12 17:38:28,314 - INFO - Implicit wait fetched : 5
+2026-05-12 17:38:28,314 - INFO - Headless mode : False
+2026-05-12 17:38:28,314 - INFO - Launching Edge Browser
+2026-05-12 17:38:32,131 - INFO - Browser Opened & Maximized Successfully
+2026-05-12 17:38:32,136 - INFO - Demoblaze URL loaded
+2026-05-12 17:38:32,147 - INFO - Step : Click Sign Up Menu
+2026-05-12 17:38:32,148 - INFO - Clicking signup Menu
+2026-05-12 17:38:32,148 - INFO - Waiting for element clickable : ('link text', 'Sign up')
+2026-05-12 17:38:32,297 - INFO - Element clickable successfully : ('link text', 'Sign up')
+2026-05-12 17:38:32,425 - INFO - Scenario Status : Status.error
+2026-05-12 17:38:32,425 - INFO - SCENARIO PASSED : Successful Signup
+2026-05-12 17:38:38,004 - INFO - Browser Closed Successfully
+2026-05-12 17:38:38,004 - INFO - ========================================

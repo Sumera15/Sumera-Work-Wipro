@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.14.4 on win32)" generated="2026-05-11T15:18:15.107046" rpa="false" schemaversion="5">
+<suite id="s1" name="Tests" source="C:\Wipro Training\Robo\RoboProject\tests">
+<suite id="s1-s1" name="Login" source="C:\Wipro Training\Robo\RoboProject\tests\login.robot">
+<test id="s1-s1-t1" name="Verify User Can Login Successfully" line="5">
+<kw name="Open Demoblaze Application" owner="login_keywords">
+<kw name="Launch Demoblaze Application" owner="LoginPage">
+<msg time="2026-05-11T15:18:15.384261" level="INFO">Opening browser 'edge' to base url 'https://www.demoblaze.com'.</msg>
+<status status="PASS" start="2026-05-11T15:18:15.383986" elapsed="4.034108"/>
+</kw>
+<status status="PASS" start="2026-05-11T15:18:15.382735" elapsed="4.035592"/>
+</kw>
+<kw name="Click Login Menu" owner="login_keywords">
+<kw name="Click Login Link" owner="LoginPage">
+<msg time="2026-05-11T15:18:19.424272" level="INFO">Clicking element 'id=login2'.</msg>
+<status status="PASS" start="2026-05-11T15:18:19.424096" elapsed="0.221415"/>
+</kw>
+<status status="PASS" start="2026-05-11T15:18:19.423702" elapsed="0.221999"/>
+</kw>
+<kw name="Enter Login Username" owner="login_keywords">
+<kw name="Enter Username" owner="LoginPage">
+<msg time="2026-05-11T15:18:19.649620" level="INFO">Typing text 'userppppp' into text field 'id=loginusername'.</msg>
+<status status="PASS" start="2026-05-11T15:18:19.649475" elapsed="0.489003"/>
+</kw>
+<status status="PASS" start="2026-05-11T15:18:19.648626" elapsed="0.490026"/>
+</kw>
+<kw name="Enter Login Password" owner="login_keywords">
+<kw name="Enter Password" owner="LoginPage">
+<msg time="2026-05-11T15:18:20.144356" level="INFO">Typing text 'pwdpwdpwd' into text field 'id=loginpassword'.</msg>
+<status status="PASS" start="2026-05-11T15:18:20.144206" elapsed="0.358828"/>
+</kw>
+<status status="PASS" start="2026-05-11T15:18:20.143760" elapsed="0.359471"/>
+</kw>
+<kw name="Click Login Button" owner="login_keywords">
+<kw name="Click Signin Button" owner="LoginPage">
+<msg time="2026-05-11T15:18:20.504452" level="INFO">Clicking button '//button[text()='Log in']'.</msg>
+<status status="PASS" start="2026-05-11T15:18:20.504310" elapsed="0.219185"/>
+</kw>
+<status status="PASS" start="2026-05-11T15:18:20.503887" elapsed="0.219793"/>
+</kw>
+<kw name="Validate Successful Login" owner="login_keywords">
+<kw name="Verify Successful Login" owner="LoginPage">
+<msg time="2026-05-11T15:18:20.746446" level="FAIL">UnexpectedAlertPresentException: Alert Text: Please fill out Username and Password.
+Message: unexpected alert open: {Alert text : Please fill out Username and Password.}
+  (Session info: MicrosoftEdge=148.0.3967.54)
+Stacktrace:
+	msedgedriver!GetHandleVerifier [0x7ff75cc90f15+e235]
+	msedgedriver!GetHandleVerifier [0x7ff75cc90f74+e294]
+	msedgedriver!GetHandleVerifier [0x7ff75d00a65a+38797a]
+	msedgedriver!(No symbol) [0x7ff75ca3f5eb]
+	msedgedriver!(No symbol) [0x7ff75c9fa30c]
+	msedgedriver!(No symbol) [0x7ff75c9f9566]
+	msedgedriver!(No symbol) [0x7ff75c9fa133]
+	msedgedriver!(No symbol) [0x7ff75cac3e49]
+	msedgedriver!(No symbol) [0x7ff75cac0413]
+	msedgedriver!(No symbol) [0x7ff75cad0672]
+	msedgedriver!GetHandleVerifier [0x7ff75ccad498+2a7b8]
+	msedgedriver!GetHandleVerifier [0x7ff75ccb5e86+331a6]
+	msedgedriver!GetHandleVerifier [0x7ff75cc98274+15594]
+	msedgedriver!GetHandleVerifier [0x7ff75cc98395+156b5]
+	msedgedriver!GetHandleVerifier [0x7ff75cc856a3+29c3]
+	KERNEL32!BaseThreadInitThunk [0x7ff9facde8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff9fcd2c48c+2c]
+</msg>
+<status status="FAIL" start="2026-05-11T15:18:20.727059" elapsed="0.141537">UnexpectedAlertPresentException: Alert Text: Please fill out Username and Password.
+Message: unexpected alert open: {Alert text : Please fill out Username and Password.}
+  (Session info: MicrosoftEdge=148.0.3967.54)
+Stacktrace:
+	msedgedriver!GetHandleVerifier [0x7ff75cc90f15+e235]
+	msedgedriver!GetHandleVerifier [0x7ff75cc90f74+e294]
+	msedgedriver!GetHandleVerifier [0x7ff75d00a65a+38797a]
+	msedgedriver!(No symbol) [0x7ff75ca3f5eb]
+	msedgedriver!(No symbol) [0x7ff75c9fa30c]
+	msedgedriver!(No symbol) [0x7ff75c9f9566]
+	msedgedriver!(No symbol) [0x7ff75c9fa133]
+	msedgedriver!(No symbol) [0x7ff75cac3e49]
+	msedgedriver!(No symbol) [0x7ff75cac0413]
+	msedgedriver!(No symbol) [0x7ff75cad0672]
+	msedgedriver!GetHandleVerifier [0x7ff75ccad498+2a7b8]
+	msedgedriver!GetHandleVerifier [0x7ff75ccb5e86+331a6]
+	msedgedriver!GetHandleVerifier [0x7ff75cc98274+15594]
+	msedgedriver!GetHandleVerifier [0x7ff75cc98395+156b5]
+	msedgedriver!GetHandleVerifier [0x7ff75cc856a3+29c3]
+	KERNEL32!BaseThreadInitThunk [0x7ff9facde8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff9fcd2c48c+2c]
+</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:20.726615" elapsed="0.142435">UnexpectedAlertPresentException: Alert Text: Please fill out Username and Password.
+Message: unexpected alert open: {Alert text : Please fill out Username and Password.}
+  (Session info: MicrosoftEdge=148.0.3967.54)
+Stacktrace:
+	msedgedriver!GetHandleVerifier [0x7ff75cc90f15+e235]
+	msedgedriver!GetHandleVerifier [0x7ff75cc90f74+e294]
+	msedgedriver!GetHandleVerifier [0x7ff75d00a65a+38797a]
+	msedgedriver!(No symbol) [0x7ff75ca3f5eb]
+	msedgedriver!(No symbol) [0x7ff75c9fa30c]
+	msedgedriver!(No symbol) [0x7ff75c9f9566]
+	msedgedriver!(No symbol) [0x7ff75c9fa133]
+	msedgedriver!(No symbol) [0x7ff75cac3e49]
+	msedgedriver!(No symbol) [0x7ff75cac0413]
+	msedgedriver!(No symbol) [0x7ff75cad0672]
+	msedgedriver!GetHandleVerifier [0x7ff75ccad498+2a7b8]
+	msedgedriver!GetHandleVerifier [0x7ff75ccb5e86+331a6]
+	msedgedriver!GetHandleVerifier [0x7ff75cc98274+15594]
+	msedgedriver!GetHandleVerifier [0x7ff75cc98395+156b5]
+	msedgedriver!GetHandleVerifier [0x7ff75cc856a3+29c3]
+	KERNEL32!BaseThreadInitThunk [0x7ff9facde8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff9fcd2c48c+2c]
+</status>
+</kw>
+<kw name="Close Application" owner="login_keywords">
+<status status="NOT RUN" start="2026-05-11T15:18:20.869944" elapsed="0.000067"/>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:15.381491" elapsed="5.489033">UnexpectedAlertPresentException: Alert Text: Please fill out Username and Password.
+Message: unexpected alert open: {Alert text : Please fill out Username and Password.}
+  (Session info: MicrosoftEdge=148.0.3967.54)
+Stacktrace:
+	msedgedriver!GetHandleVerifier [0x7ff75cc90f15+e235]
+	msedgedriver!GetHandleVerifier [0x7ff75cc90f74+e294]
+	msedgedriver!GetHandleVerifier [0x7ff75d00a65a+38797a]
+	msedgedriver!(No symbol) [0x7ff75ca3f5eb]
+	msedgedriver!(No symbol) [0x7ff75c9fa30c]
+	msedgedriver!(No symbol) [0x7ff75c9f9566]
+	msedgedriver!(No symbol) [0x7ff75c9fa133]
+	msedgedriver!(No symbol) [0x7ff75cac3e49]
+	msedgedriver!(No symbol) [0x7ff75cac0413]
+	msedgedriver!(No symbol) [0x7ff75cad0672]
+	msedgedriver!GetHandleVerifier [0x7ff75ccad498+2a7b8]
+	msedgedriver!GetHandleVerifier [0x7ff75ccb5e86+331a6]
+	msedgedriver!GetHandleVerifier [0x7ff75cc98274+15594]
+	msedgedriver!GetHandleVerifier [0x7ff75cc98395+156b5]
+	msedgedriver!GetHandleVerifier [0x7ff75cc856a3+29c3]
+	KERNEL32!BaseThreadInitThunk [0x7ff9facde8d7+17]
+	ntdll!RtlUserThreadStart [0x7ff9fcd2c48c+2c]
+</status>
+</test>
+<test id="s1-s1-t2" name="Verify Invalid User Login" line="14">
+<kw name="Open Demoblaze Application" owner="login_keywords">
+<kw name="Launch Demoblaze Application" owner="LoginPage">
+<msg time="2026-05-11T15:18:20.900992" level="INFO">Opening browser 'edge' to base url 'https://www.demoblaze.com'.</msg>
+<status status="PASS" start="2026-05-11T15:18:20.900761" elapsed="3.968785"/>
+</kw>
+<status status="PASS" start="2026-05-11T15:18:20.899196" elapsed="3.970512"/>
+</kw>
+<kw name="Click Login Menu" owner="login_keywords">
+<kw name="Click Login Link" owner="LoginPage">
+<msg time="2026-05-11T15:18:24.874449" level="INFO">Clicking element 'id=login2'.</msg>
+<status status="PASS" start="2026-05-11T15:18:24.874324" elapsed="0.297257"/>
+</kw>
+<status status="PASS" start="2026-05-11T15:18:24.873929" elapsed="0.297821"/>
+</kw>
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<kw name="Enter Invalid Login Username" owner="login_keywords">
+<msg time="2026-05-11T15:18:25.275311" level="FAIL">Recursive execution stopped.</msg>
+<status status="FAIL" start="2026-05-11T15:18:25.274755" elapsed="0.000628">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.274504" elapsed="0.001393">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.274216" elapsed="0.002190">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.273882" elapsed="0.002979">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.273601" elapsed="0.003769">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.273333" elapsed="0.004438">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.273012" elapsed="0.005206">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.272716" elapsed="0.006002">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.272450" elapsed="0.006761">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.272128" elapsed="0.007528">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.271861" elapsed="0.008232">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.271572" elapsed="0.008997">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.271299" elapsed="0.009832">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.270918" elapsed="0.010704">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.268878" elapsed="0.013159">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.268596" elapsed="0.013905">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.268288" elapsed="0.014708">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.267839" elapsed="0.015627">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.267248" elapsed="0.016635">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.262878" elapsed="0.021954">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.262554" elapsed="0.022753">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.262269" elapsed="0.023455">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.261959" elapsed="0.024174">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.261633" elapsed="0.024921">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.255430" elapsed="0.040205">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.255106" elapsed="0.041111">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.254810" elapsed="0.042098">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.254291" elapsed="0.044562">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.253970" elapsed="0.045352">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.253402" elapsed="0.046539">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.253068" elapsed="0.047300">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.252792" elapsed="0.047998">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.252516" elapsed="0.048789">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.252236" elapsed="0.049444">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.251941" elapsed="0.050127">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.251673" elapsed="0.050798">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.251389" elapsed="0.051464">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.251075" elapsed="0.052171">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.250793" elapsed="0.052839">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.250526" elapsed="0.053470">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.250240" elapsed="0.054149">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.249915" elapsed="0.054850">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.249606" elapsed="0.055507">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.249192" elapsed="0.056308">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.248884" elapsed="0.056963">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.248597" elapsed="0.057616">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.248313" elapsed="0.058254">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.247989" elapsed="0.058921">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.247693" elapsed="0.059592">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.247435" elapsed="0.060193">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.247141" elapsed="0.060847">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.246863" elapsed="0.061525">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.246602" elapsed="0.062118">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.246322" elapsed="0.062790">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.246021" elapsed="0.063451">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.245746" elapsed="0.064052">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.245483" elapsed="0.064675">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.245196" elapsed="0.065318">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.244917" elapsed="0.065916">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.244658" elapsed="0.066507">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.244397" elapsed="0.067124">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.244114" elapsed="0.067710">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.243837" elapsed="0.068284">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.243566" elapsed="0.068891">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.243308" elapsed="0.069445">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.242998" elapsed="0.070061">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.242722" elapsed="0.070672">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.242458" elapsed="0.071225">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.242189" elapsed="0.071770">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.241893" elapsed="0.072398">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.241648" elapsed="0.072945">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.241375" elapsed="0.073481">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.241052" elapsed="0.074081">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.240738" elapsed="0.076792">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.240379" elapsed="0.077467">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.240090" elapsed="0.078060">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.239821" elapsed="0.088755">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.239550" elapsed="0.089439">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.239276" elapsed="0.092598">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.238703" elapsed="0.093499">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.238392" elapsed="0.094077">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.237738" elapsed="0.094986">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.237319" elapsed="0.095672">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.237008" elapsed="0.096298">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.236712" elapsed="0.096866">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.236203" elapsed="0.099038">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.235750" elapsed="0.099793">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.224217" elapsed="0.111591">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.223922" elapsed="0.112145">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.223660" elapsed="0.112678">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.223399" elapsed="0.113185">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.223099" elapsed="0.113758">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.222851" elapsed="0.114270">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.222560" elapsed="0.114847">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.222207" elapsed="0.115444">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.221889" elapsed="0.115997">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.221615" elapsed="0.116514">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.221319" elapsed="0.117066">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.221007" elapsed="0.117592">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.220705" elapsed="0.118112">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.220440" elapsed="0.118601">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.220120" elapsed="0.119253">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.219852" elapsed="0.119761">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.219549" elapsed="0.120288">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.219113" elapsed="0.120950">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.218810" elapsed="0.121496">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.215799" elapsed="0.124715">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.215525" elapsed="0.125196">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.215238" elapsed="0.125682">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.214919" elapsed="0.126222">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.214613" elapsed="0.126770">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.214293" elapsed="0.127289">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.213856" elapsed="0.127911">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.190739" elapsed="0.151207">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.189979" elapsed="0.152149">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.189687" elapsed="0.152680">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.189245" elapsed="0.153311">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.188916" elapsed="0.153821">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.188613" elapsed="0.154287">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.184216" elapsed="0.158837">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.183964" elapsed="0.159265">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.183707" elapsed="0.159703">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.183416" elapsed="0.160168">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.183098" elapsed="0.160729">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.182803" elapsed="0.161194">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.182490" elapsed="0.161666">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.182216" elapsed="0.162132">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.181925" elapsed="0.162574">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.181669" elapsed="0.162975">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.181432" elapsed="0.163362">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.181142" elapsed="0.163799">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.180881" elapsed="0.164195">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.180608" elapsed="0.164640">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.180332" elapsed="0.165349">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.180002" elapsed="0.165816">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.179728" elapsed="0.166208">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.179429" elapsed="0.166666">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.179101" elapsed="0.167162">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.178847" elapsed="0.167693">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.178574" elapsed="0.168114">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.178286" elapsed="0.168522">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.177985" elapsed="0.168946">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.177722" elapsed="0.169325">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.177444" elapsed="0.169765">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.177136" elapsed="0.170208">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.176841" elapsed="0.170907">Recursive execution stopped.</status>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:25.176404" elapsed="0.171465">Recursive execution stopped.</status>
+</kw>
+<kw name="Enter Invalid Login Password" owner="login_keywords">
+<status status="NOT RUN" start="2026-05-11T15:18:25.348489" elapsed="0.000054"/>
+</kw>
+<kw name="Click Login Button" owner="login_keywords">
+<status status="NOT RUN" start="2026-05-11T15:18:25.348915" elapsed="0.000044"/>
+</kw>
+<kw name=" Validate Invalid Login Alert" owner="login_keywords">
+<status status="NOT RUN" start="2026-05-11T15:18:25.371678" elapsed="0.000152"/>
+</kw>
+<kw name="Close Application" owner="login_keywords">
+<status status="NOT RUN" start="2026-05-11T15:18:25.372704" elapsed="0.000050"/>
+</kw>
+<status status="FAIL" start="2026-05-11T15:18:20.896535" elapsed="4.476743">Recursive execution stopped.</status>
+</test>
+<status status="FAIL" start="2026-05-11T15:18:15.152910" elapsed="10.223446"/>
+</suite>
+<suite id="s1-s2" name="Signup" source="C:\Wipro Training\Robo\RoboProject\tests\signup.robot">
+<test id="s1-s2-t1" name="Verify User Can Signup Successfully" line="5">
+<kw name="Open Demoblaze Application" owner="signup_keywords">
+<kw name="Launch Demoblaze Application" owner="SignupPage">
+<msg time="2026-05-11T15:18:25.434395" level="INFO">Opening browser 'edge' to base url 'https://www.demoblaze.com'.</msg>
+<status status="PASS" start="2026-05-11T15:18:25.434235" elapsed="4.444303"/>
+</kw>
+<status status="PASS" start="2026-05-11T15:18:25.433849" elapsed="4.444830"/>
+</kw>
+<kw name="Click Signup Menu" owner="signup_keywords">
+<kw name="Click Signup Link" owner="SignupPage">
+<msg time="2026-05-11T15:18:29.879612" level="INFO">Clicking element 'id:signin2'.</msg>
+<status status="PASS" start="2026-05-11T15:18:29.879484" elapsed="0.342488"/>
+</kw>
+<status status="PASS" start="2026-05-11T15:18:29.879083" elapsed="0.343051"/>
+</kw>
+<kw name="Enter Signup Username" owner="signup_keywords">
+<kw name="Enter Username" owner="SignupPage">
+<msg time="2026-05-11T15:18:30.236318" level="INFO">Typing text 'user90062' into text field 'id:sign-username'.</msg>
+<status status="PASS" start="2026-05-11T15:18:30.236122" elapsed="0.481550"/>
+</kw>
+<status status="PASS" start="2026-05-11T15:18:30.235646" elapsed="0.482179"/>
+</kw>
+<kw name="Enter Signup Password" owner="signup_keywords">
+<kw name="Enter Password" owner="SignupPage">
+<msg time="2026-05-11T15:18:30.719890" level="INFO">Typing text 'pwdpwdpwd' into text field 'id:sign-password'.</msg>
+<status status="PASS" start="2026-05-11T15:18:30.719765" elapsed="0.278536"/>
+</kw>
+<status status="PASS" start="2026-05-11T15:18:30.719387" elapsed="0.279077"/>
+</kw>
+<kw name="Click Signup Button" owner="signup_keywords">
+<kw name="Click Register Button" owner="SignupPage">
+<msg time="2026-05-11T15:18:30.999543" level="INFO">Clicking button '//button[text()='Sign up']'.</msg>
+<status status="PASS" start="2026-05-11T15:18:30.999419" elapsed="0.270602"/>
+</kw>
+<status status="PASS" start="2026-05-11T15:18:30.999001" elapsed="0.271219"/>
+</kw>
+<kw name="Validate Signup Success Message" owner="signup_keywords">
+<kw name="Verify Signup Success Alert" owner="SignupPage">
+<msg time="2026-05-11T15:18:32.307163" level="INFO">This user already exist.</msg>
+<status status="PASS" start="2026-05-11T15:18:31.274464" elapsed="1.032869"/>
+</kw>
+<status status="PASS" start="2026-05-11T15:18:31.274036" elapsed="1.033422"/>
+</kw>
+<kw name="Close Application" owner="signup_keywords">
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-05-11T15:18:32.310971" elapsed="2.991751"/>
+</kw>
+<status status="PASS" start="2026-05-11T15:18:32.310533" elapsed="2.992335"/>
+</kw>
+<status status="PASS" start="2026-05-11T15:18:25.433140" elapsed="9.870101"/>
+</test>
+<status status="PASS" start="2026-05-11T15:18:25.402782" elapsed="9.901142"/>
+</suite>
+<status status="FAIL" start="2026-05-11T15:18:15.109258" elapsed="20.196097"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="2" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Tests" id="s1" pass="1" fail="2" skip="0">Tests</stat>
+<stat name="Login" id="s1-s1" pass="0" fail="2" skip="0">Tests.Login</stat>
+<stat name="Signup" id="s1-s2" pass="1" fail="0" skip="0">Tests.Signup</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
